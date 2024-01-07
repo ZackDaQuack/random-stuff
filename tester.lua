@@ -24,13 +24,6 @@ end
 _G.loaded = true
 
 
--- // Key System (Yes, I know you can remove this, but this helps support me! :) ) // --
-loadstring(game:HttpGet('https://raw.githubusercontent.com/ZackDaQuack/blox-cash/main/keysystem.lua', true))()
-repeat wait(1) until _G.keydone == true
-notify("Sucess!", "Your key was sucessfully validated! Now go to the cashier!", "rbxassetid://15234955230")
-_G.keydone = false
-
-
 -- // Hijack gui // --
 local stop_autofarm = false
 local menu = game:GetService("Players").LocalPlayer.PlayerGui.MainGUI.Bar.SettingsMenu.Menu
